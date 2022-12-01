@@ -1,0 +1,610 @@
+/*Style globale*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto' , sans-serif;
+}
+
+h1
+{
+    text-transform: uppercase;
+}
+
+#bloc-page
+{
+    min-width: 500px;
+}
+
+/*Fin Style Global*/
+
+/*Style du heading*/
+
+#heading
+{
+    width : 85% ;
+    height: 85vh;
+    padding : 7.5vh 7.5% ;
+    background: #0c0f38;
+    position: relative;
+}
+
+#header
+{
+    width : 100% ;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7.5vh ;
+
+}
+
+#title
+{
+    font-size: 3em ;
+    font-weight: bold ;
+    color: white;
+}
+
+#menu
+{
+    display: flex ;
+    justify-content: space-between;
+    width : 50% ;
+}
+
+#menu a
+{
+    color : white ;
+    text-decoration: none ;
+    font-size : 1.25em ;
+}
+
+#menu a:hover
+{
+    color : #fdd430 ;
+    transition : all 0.5s ;
+}
+
+#hide-menu
+{
+    visibility: hidden;
+    background-color: #8308eb;
+    width : 85%;
+    height: 25vh;
+    transform: translateY(-7.5vh);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#hide-menu a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1.25em;
+}
+
+#burger-menu
+{
+    color : #ddd;
+    display: none ;
+    cursor: pointer;
+}
+
+#burger-menu i
+{
+    border : 2px solid white ;
+    border-radius: 5px ;
+    padding : 5px 10px;
+}
+
+#content
+{
+    width : 100% ;
+    display: flex;
+    justify-content: space-between;
+}
+
+#text
+{
+    width : 40% ;
+    height: 70vh ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#text h1
+{
+    color : white ;
+    font-size: 4em ;
+    line-height: 75px ;
+}
+
+#text h2
+{
+    color : #fdd430 ;
+    font-size: 2.5em ;
+}
+
+#text p
+{
+    color : white ;
+    text-align: justify;
+    line-height: 25px ;
+    font-size: 1.25em ;
+}
+
+#logo
+{
+    width : 50% ;
+    height : 70vh ;
+    background: #10103a;
+}
+
+#text div
+{
+    align-self: center;
+}
+
+#text div button
+{
+    padding: 10px 25px ;
+    color : black ;
+    text-decoration: none ;
+    font-size : 1.25em ;
+    text-transform: uppercase;
+    border : none ;
+    border-radius: 5px ;
+}
+
+#text div button:hover
+{
+    cursor : pointer ;
+    background: black;
+    color : white ;
+    transition: all 0.5s;
+}
+/*Fin Style du heading*/
+
+/*Style de about*/
+
+#about
+{
+    width : 70% ;
+    height : 120vh ;
+    padding: 10vh 15%;
+}
+
+#about h1
+{
+    width : 100% ;
+    font-weight: bold ;
+    text-transform: uppercase;
+    font-size: 2.5em ;
+    text-align: center;
+    color : #0c0f38 ;
+    margin-bottom: 5vh;
+}
+
+#about-hr
+{
+    width : 50%;
+    margin : auto ;
+    border :none;
+    border-top: 5px solid #10103a;
+    margin-bottom: 10vh ;
+}
+
+#illustration
+{
+    width : 80% ;
+    height: 75vh;
+    margin : auto ;
+}
+
+#description
+{
+    width : 100% ;
+    text-align: center ;
+    line-height: 25px ;
+    margin-bottom: 5vh ;
+}
+
+#bouton
+{
+    width : 25% ;
+    margin: auto;
+    text-align: center ;
+}
+
+#bouton button
+{
+    padding: 10px 35px ;
+    color : white ;
+    text-decoration: none ;
+    background: black;
+    font-size : 1.25em ;
+    text-transform: uppercase;
+    border : none ;
+    border-radius: 5px ;
+}
+
+#bouton button:hover
+{
+    cursor : pointer ;
+    background: #0c0f38;
+    color : white ;
+    transition: all 0.5s;
+}
+/*Fin style de about*/
+
+/*Style de services*/
+
+#services
+{
+    width : 80% ;
+    height: 210vh;
+    padding: 10vh 10%;
+    background: #0c0f38;
+    color : white ;
+}
+
+#services h1
+{
+    width : 100% ;
+    text-align: center ;
+    font-size: 3em ;
+    margin-bottom: 5vh ;
+}
+
+#services h3
+{
+    width : 60% ;
+    margin : auto ;
+    text-align: center;
+    font-size: 1.25em ;
+    margin-bottom: 7.5vh ;
+}
+
+#service-list
+{
+    width : 100% ;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap : 25px ;
+}
+
+.service
+{
+    border : #cecfd7 solid 3px ;
+    border-radius: 20px ;
+    padding : 35px ;
+}
+
+.short
+{
+    height : 65vh ;
+}
+
+.long
+{
+    height : 80vh ;
+}
+
+.service h2
+{
+    width : 100% ;
+    text-align: center ;
+    margin-bottom: 3vh ;
+    letter-spacing: 7.5px ;
+}
+
+.icone
+{
+    color : #8308eb ;
+    background: white ;
+    width : 30% ;
+    text-align : center ;
+    margin : auto ;
+    margin-bottom: 3vh ;
+    padding: 20px ;
+    border-radius: 100%;
+}
+
+.service p
+{
+    text-align: justify;
+    line-height: 25px ;
+}
+
+.service:hover
+{
+    background-color: #8308eb;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+/*Fin Style de services*/
+
+/*Styles de raisons*/
+
+#raisons-sections
+{
+    width : 80% ;
+    height : 100vh ;
+    padding : 10vh 10% ;
+}
+
+#raisons-sections h1
+{
+    text-align : center;
+    font-size: 3em ;
+    text-transform: uppercase;
+    margin-bottom: 5vh ;
+    color :#0c0f38;
+}
+
+#raisons-hr
+{
+    width : 30%;
+    margin : auto ;
+    border :none;
+    border-top: 5px solid #10103a;
+    margin-bottom: 10vh ;
+}
+
+#raisons
+{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap : 35px ;
+}
+
+.raison p
+{
+    text-align: center ;
+    font-size : 1.25em ;
+    line-height: 35px;
+}
+
+.raison
+{
+    box-shadow: #ddd 0px 0px 10px;
+    padding : 25px ;
+    border-radius: 25px ;
+}
+
+
+.raison:hover
+{
+    transform : scale(1.2);
+    transition: all 1s;
+    cursor : pointer ;
+}
+/*Fin style de raisons*/
+
+/*Style de conditions*/
+
+#conditions-section
+{
+    width : 80% ;
+    height : 75vh ;
+    padding: 10vh 10% ;
+    background-color: #10103a;
+    color : white ;
+}
+
+#conditions-section h1
+{
+    text-align : center ;
+    font-size: 3em ;
+    text-transform: uppercase;
+    margin-bottom: 5vh;
+}
+
+#conditions-section h3
+{
+    text-align: center ;
+    width : 60% ;
+    margin : auto ;
+    margin-bottom: 10vh ;
+}
+
+#conditons
+{
+    display: grid ;
+    grid-template-columns: repeat(3 , 1fr);
+    gap : 75px ;
+}
+
+#conditons p
+{
+    font-size : 1.25em ;
+    margin-top: 5vh ;
+    text-align: center;
+    line-height: 35px ;
+}
+
+.condition
+{
+    border : 2px solid white;
+    padding : 25px ;
+    border-radius: 15px;
+}
+
+.condition:hover
+{
+    transform: translateY(-5vh);
+    cursor : pointer ;
+    transition: all 0.5s;
+}
+
+/*Fin style de Conditions*/
+
+/*Style Rentabilité*/
+
+#rentabilite-section
+{
+    width : 85% ;
+    height: 115vh ;
+    padding : 10vh 7.5% ;
+}
+
+#rentabilite-section h1
+{
+    text-align : center ;
+    font-size: 3em ;
+    text-transform: uppercase;
+    margin-bottom: 5vh;
+    color: #10103a;
+}
+
+#rentabilite-section h3
+{
+    text-align: center ;
+    width : 60% ;
+    margin : auto ;
+    margin-bottom: 15vh ;
+    color : #222;
+}
+
+#rentabilite
+{
+    display: grid ;
+    grid-template-columns: repeat(3 , 1fr);
+    gap : 50px ;
+}
+
+.taux
+{
+    padding : 25px ;
+    border-radius: 25px ;
+    box-shadow: #ddd 0px 0px 10px;
+}
+
+.taux:hover
+{
+    transform: translateY(-10vh) scale(1.2);
+    cursor : pointer;
+    transition: all 1s;
+}
+
+
+.taux p
+{
+    font-size: 1.25em ;
+    text-align: center ;
+    line-height: 35px ;
+    margin-top: 5vh;
+}
+/*Fin Style rentabilité*/
+
+/*Style de contact*/
+
+#contact-section
+{
+    width : 80% ;
+    height : 60vh ;
+    padding : 10vh 10% ;
+    color : white ;
+    background-color: #10103a;
+}
+
+#contact-form
+{
+    width : 40% ;
+    height : 70vh ;
+    margin : auto ;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;  
+    padding : 50px 70px 50px 50px ; 
+    transform: translateY(-40vh);
+    background-color: #10103a;
+    border-radius: 25px ;
+}
+
+.champ
+{
+    width : 100%;
+}
+
+.champ input
+{
+    width : 100% ;
+    border-radius: 15px ;
+    padding : 20px 0 20px 20px ;
+    font-size : 1.2em ;
+    outline: none;
+}
+
+#message
+{
+    width : 100% ;
+}
+
+#message textarea
+{
+    resize: none;
+    width : 100% ;
+    padding : 20px 0 20px 20px ;
+    border-radius: 15px ;
+    font-size : 1.2em ;
+    outline: none ;
+}
+
+.submit-btn button
+{
+    padding : 10px 40px ;
+    border-radius: 10px ;
+    font-size: 1.25em ;
+    color : #8308eb;
+}
+
+.submit-btn button:hover
+{
+    background-color: #8308eb;
+    color : white;
+    cursor : pointer ;
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+.submit-btn
+{
+    align-self: center ;
+}
+
+#contact-section h1 , #contact-section h3
+{
+    transform: translateY(-35vh);
+}
+
+#contact-section h1
+{
+    text-align: center ;
+    font-size : 3em ;
+    text-transform: uppercase;
+    margin-bottom: 5vh ;
+}
+
+#contact-section h3
+{
+    text-align: center;
+}
+
+/*Fin Style de contact*/
+
+/*Style footer*/
+
+#footer
+{
+    padding : 15px ;
+    text-align: center ;
+    font-size: small;
+}
+
+/*Fin Style footer*/

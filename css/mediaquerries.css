@@ -1,0 +1,415 @@
+@media all and (max-width : 1280px ) 
+{
+    /*Style du heading*/
+
+    #menu
+    {
+        display: none;
+    }
+
+    #burger-menu
+    {
+        display: block;
+    }
+
+    #heading
+    {
+        height: 115vh ;
+    }
+
+    #text
+    {
+        height : 90vh ;
+    }
+
+    /*Fin style du heading*/  
+    
+    /*Style de about*/
+
+    #about
+    {
+        height : 120vh ;
+        width : 80% ;
+        padding : 10vh 10% ;
+    }
+
+    #about h1
+    {
+        font-size : 2em ;
+    }
+
+    #illustration
+    {
+        margin-bottom: 5vh ;
+    }
+
+    #description
+    {
+        margin-bottom: 10vh;
+    }
+
+    /*Fin style de about*/
+
+    /*Style de services*/
+
+    #services
+    {
+        height : 330vh ;
+    }
+
+    #service-list
+    {
+        grid-template-columns: repeat(2 , 1fr) ;
+    }
+
+    .crypto
+    {
+        height : 90vh ;
+    }
+
+    /*Fin Style de services*/
+
+    /*Style de raisons*/
+    
+    #raisons-sections
+    {
+        height : 180vh ;
+    }
+
+    #raisons
+    {
+        grid-template-columns: repeat(1 , 1fr);
+        width : 60%;
+        margin: auto;
+    }
+
+    /*Fin Style de raisons*/
+
+    /*Style de conditions*/
+
+    #conditions-section
+    {
+        height : 185vh ;
+    }
+
+    #conditons
+    {
+        grid-template-columns: 1fr;
+        width : 60% ;
+        margin : auto
+    }
+
+    /*Fin style de conditions*/
+
+    /*Style de rentabilite*/
+
+    #rentabilite-section
+    {
+        height : 200vh ;
+    }
+
+    #rentabilite
+    {
+        grid-template-columns: 1fr ;
+        width : 50%;
+        margin : auto;
+    }
+    /*Fin style de rentabilite*/
+
+    /*Style de contact*/
+
+    /*Style de contact*/
+    
+    #contact-section
+    {
+        height: 75vh;
+    }
+
+    #contact-form
+    {
+        height : 80vh ;
+    }
+
+    /*Fin style de contact*/
+
+    /*Style de footer*/
+    
+    #footer
+    {
+        padding : 10px;
+    }
+
+    /*Fin style de footer*/
+}
+
+@media all and (min-width : 768px) and (max-width : 1024px)
+{
+    #conditions-section
+    {
+        height: 200vh;
+    }
+
+    #rentabilite-section
+    {
+        height: 225vh;
+    }
+}
+
+@media all and (max-width : 1024px)
+{
+    #heading
+    {
+        height : 150vh;
+    }
+
+    #content
+    {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #text
+    {
+        width : 80%;
+        height : 60vh;
+        text-align: center;
+    }
+
+    #logo
+    {
+        width : 80% ;
+        margin-bottom: 5vh;
+    }
+
+    #services
+    {
+        height : 400vh ;
+    }
+
+    #service-list
+    {
+        grid-template-columns: 1fr;
+    }
+
+    .service
+    {
+        width : 50% ;
+        margin : auto ;
+    }
+
+    .short
+    {
+        height : 50vh ;
+    }
+
+    .long
+    {
+        height : 65vh ;
+    }
+
+    .crypto
+    {
+        height : 70vh;
+    }
+
+    #about
+    {
+        height : 130vh ;
+    }
+
+    #about h1
+    {
+        font-size : 1.75em ;
+    }
+
+    #about button
+    {
+        font-size : 1.1em ;
+    }
+
+    #raisons-sections
+    {
+        height : 200vh ;
+    }
+}
+
+@media all and (max-width : 768px)
+{
+    #about
+    {
+        height: 115vh ; 
+    }
+
+    #description p
+    {
+        text-align: justify;
+    }
+
+    #illustration
+    {
+        height: 40vh;
+    }
+
+    #services h1
+    {
+        font-size: 1.75em;
+    }
+
+    #services h3
+    {
+        width : 90% ;
+    }
+
+    .short
+    {
+        height : 60vh ;
+    }
+
+    .long{
+        height : 70vh ;
+    }
+
+    .crypto
+    {
+        height : 85vh ;
+    }
+
+    .service
+    {
+        width : 70%;
+    }
+
+    #services
+    {
+        height : 450vh ;
+    }
+
+    .raison
+    {
+        width : 100% ;
+    }
+
+    #raisons-sections h1
+    {
+        font-size : 1.75em ;
+    }
+
+    #raisons-sections
+    {
+        height: 190vh ;
+    }
+
+    #raisons
+    {
+        width : 90%;
+    }
+
+    .taux
+    {
+        width : 100% ;
+    }
+
+    .taux:hover
+    {
+        transform: none;
+    }
+
+    #conditions-section
+    {
+        height : 200vh;
+        width : 90%;
+        padding-left : 5%;
+        padding-right: 5%;
+    }
+
+    #conditions-section h1
+    {
+        font-size : 2em;
+    }
+
+    #conditions-section h3
+    {
+        width : 90%;
+    }
+
+    #conditons
+    {
+        width : 80%;
+    }
+
+    .condition
+    {
+        width: 100%;
+    }
+
+    #rentabilite
+    {
+        width : 80%;
+    }
+
+    #rentabilite-section
+    {
+        height : 200vh;
+        width : 95%;
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
+
+    #rentabilite-section h1
+    {
+        font-size: 2em;
+    }
+
+    #rentabilite-section h3
+    {
+        width : 90%;
+        margin-bottom: 5vh;
+    }
+
+    #contact-form
+    {
+        width : 80%;
+    }
+
+    #contact-section h1
+    {
+        font-size : 2em;
+    }
+
+    .raison , .condition , .taux 
+    {
+        transform: translateX(-20px);
+    }
+
+    #contact-form
+    {
+        transform: translate(-20px, -40vh);
+    }
+
+    #heading h1
+    {
+        font-size : 2.5em ;
+        line-height: 50px;
+    }
+
+    #logo
+    {
+        height: 50vh;
+    }
+
+    #heading
+    {
+        height : 120vh ;
+    }
+
+    #text h2
+    {
+        font-size: 2em;;
+    }
+
+    #text
+    {
+        height: 50vh;
+    }
+}
